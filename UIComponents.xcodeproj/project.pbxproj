@@ -33,6 +33,8 @@
 		3042DF8F229184B6006069A8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3042DF8E229184B6006069A8 /* LICENSE */; };
 		30D7EA54229C1F7C0014E31B /* LabelButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7EA53229C1F7C0014E31B /* LabelButtonContainer.swift */; };
 		30D7EA56229C1FA90014E31B /* LabelButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7EA55229C1FA90014E31B /* LabelButtonComponent.swift */; };
+		30D7EA59229C20A20014E31B /* ImageButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7EA58229C20A20014E31B /* ImageButtonContainer.swift */; };
+		30D7EA5B229C21090014E31B /* ImageButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7EA5A229C21090014E31B /* ImageButtonComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		3042DF8E229184B6006069A8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		30D7EA53229C1F7C0014E31B /* LabelButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButtonContainer.swift; sourceTree = "<group>"; };
 		30D7EA55229C1FA90014E31B /* LabelButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButtonComponent.swift; sourceTree = "<group>"; };
+		30D7EA58229C20A20014E31B /* ImageButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonContainer.swift; sourceTree = "<group>"; };
+		30D7EA5A229C21090014E31B /* ImageButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 				3042DF6322915BAE006069A8 /* Label+Image */,
 				3042DF6622916270006069A8 /* Label2 */,
 				30D7EA52229C1F630014E31B /* Label+Button */,
+				30D7EA57229C208B0014E31B /* Image+Button */,
 			);
 			path = "2 elements";
 			sourceTree = "<group>";
@@ -291,6 +296,15 @@
 			path = "Label+Button";
 			sourceTree = "<group>";
 		};
+		30D7EA57229C208B0014E31B /* Image+Button */ = {
+			isa = PBXGroup;
+			children = (
+				30D7EA58229C20A20014E31B /* ImageButtonContainer.swift */,
+				30D7EA5A229C21090014E31B /* ImageButtonComponent.swift */,
+			);
+			path = "Image+Button";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -402,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D7EA5B229C21090014E31B /* ImageButtonComponent.swift in Sources */,
 				3042DF812291776C006069A8 /* Label2Image2Container.swift in Sources */,
 				3042DF7222917078006069A8 /* LabelImageButtonContainer.swift in Sources */,
 				3042DF8822917991006069A8 /* Label3ImageComponent.swift in Sources */,
@@ -415,6 +430,7 @@
 				3042DF8322917806006069A8 /* Label2Image2Component.swift in Sources */,
 				3042DF77229172D3006069A8 /* Image2LabelContainer.swift in Sources */,
 				3042DF5D229158C4006069A8 /* LabelContainer.swift in Sources */,
+				30D7EA59229C20A20014E31B /* ImageButtonContainer.swift in Sources */,
 				3042DF5B2291588E006069A8 /* InitView.swift in Sources */,
 				3042DF6D22916543006069A8 /* Label2ImageContainer.swift in Sources */,
 				3042DF6122915B72006069A8 /* LabelImageContainer.swift in Sources */,

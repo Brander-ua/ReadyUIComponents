@@ -1,24 +1,25 @@
 //
-//  LabelButtonComponent.swift
+//  ImageButtonComponent.swift
 //  UIComponents
 //
 
 import Foundation
 
-open class LabelButtonComponent: InitView, LabelButtonContainer {
+open class ImageButtonComponent: InitView, ImageButtonContainer {
   
   // MARK: - UI elements
   
-  open var label: UILabel = UILabel()
+  open var imageView: UIImageView = UIImageView()
   open var button: UIButton = UIButton()
   
   // MARK: - Init configure
   
   open override func initConfigure() {
     super.initConfigure()
-    addSubview(label)
+    addSubview(imageView)
     addSubview(button)
   }
+  
 }
 
-public typealias ButtonLabelComponent = LabelButtonComponent
+public typealias ButtonImageComponent = ImageButtonComponent
