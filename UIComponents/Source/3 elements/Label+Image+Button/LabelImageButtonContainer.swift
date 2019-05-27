@@ -11,4 +11,4 @@ public protocol LabelImageButtonContainer {
   var button: UIButton { get set }
 }
 
-typealias ImageLabelButtonContainer = LabelImageButtonContainer
+public typealias ImageLabelButtonContainer = LabelImageButtonContainer

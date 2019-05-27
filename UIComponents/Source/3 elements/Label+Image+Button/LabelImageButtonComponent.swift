@@ -24,4 +24,4 @@ open class LabelImageButtonComponent: InitView, LabelImageButtonContainer {
   
 }
 
-typealias ImageLabelButtonComponent = LabelImageButtonComponent
+public typealias ImageLabelButtonComponent = LabelImageButtonComponent

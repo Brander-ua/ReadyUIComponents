@@ -11,5 +11,5 @@ public protocol Image2LabelContainer {
   var label: UILabel { get set }
 }
 
-typealias ImageLabelImageContainer = Image2LabelContainer
-typealias LabelImage2Container = Image2LabelContainer
+public typealias ImageLabelImageContainer = Image2LabelContainer
+public typealias LabelImage2Container = Image2LabelContainer

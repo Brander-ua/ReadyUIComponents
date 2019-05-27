@@ -23,5 +23,5 @@ open class Image2LabelComponent: InitView, Image2LabelContainer {
   }
 }
 
-typealias ImageLabelImageComponent = Image2LabelComponent
-typealias LabelImage2Component = Image2LabelComponent
+public typealias ImageLabelImageComponent = Image2LabelComponent
+public typealias LabelImage2Component = Image2LabelComponent
