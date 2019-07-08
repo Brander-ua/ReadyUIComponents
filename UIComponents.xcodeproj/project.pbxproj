@@ -41,6 +41,14 @@
 		315845A622D378C70017BA8E /* Label4Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315845A422D378C70017BA8E /* Label4Container.swift */; };
 		315845A822D3795A0017BA8E /* Label4Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315845A722D3795A0017BA8E /* Label4Component.swift */; };
 		315845A922D3795A0017BA8E /* Label4Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315845A722D3795A0017BA8E /* Label4Component.swift */; };
+		31BAC52B22D390B400623315 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC52A22D390B400623315 /* ImageContainer.swift */; };
+		31BAC52C22D390B400623315 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC52A22D390B400623315 /* ImageContainer.swift */; };
+		31BAC52E22D390E200623315 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC52D22D390E200623315 /* ImageComponent.swift */; };
+		31BAC52F22D390E200623315 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC52D22D390E200623315 /* ImageComponent.swift */; };
+		31BAC53222D391B700623315 /* ButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC53122D391B700623315 /* ButtonContainer.swift */; };
+		31BAC53322D391B700623315 /* ButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC53122D391B700623315 /* ButtonContainer.swift */; };
+		31BAC53522D391DD00623315 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC53422D391DD00623315 /* ButtonComponent.swift */; };
+		31BAC53622D391DD00623315 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BAC53422D391DD00623315 /* ButtonComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +97,10 @@
 		30D7EA5F229C22C10014E31B /* Label2ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label2ButtonComponent.swift; sourceTree = "<group>"; };
 		315845A422D378C70017BA8E /* Label4Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label4Container.swift; sourceTree = "<group>"; };
 		315845A722D3795A0017BA8E /* Label4Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label4Component.swift; sourceTree = "<group>"; };
+		31BAC52A22D390B400623315 /* ImageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContainer.swift; sourceTree = "<group>"; };
+		31BAC52D22D390E200623315 /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
+		31BAC53122D391B700623315 /* ButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContainer.swift; sourceTree = "<group>"; };
+		31BAC53422D391DD00623315 /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				3042DF6222915BA2006069A8 /* Label */,
+				31BAC52922D3909800623315 /* Image */,
+				31BAC53022D391A200623315 /* Button */,
 			);
 			path = "1 element";
 			sourceTree = "<group>";
@@ -335,6 +349,24 @@
 			path = Label4;
 			sourceTree = "<group>";
 		};
+		31BAC52922D3909800623315 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				31BAC52A22D390B400623315 /* ImageContainer.swift */,
+				31BAC52D22D390E200623315 /* ImageComponent.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		31BAC53022D391A200623315 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				31BAC53122D391B700623315 /* ButtonContainer.swift */,
+				31BAC53422D391DD00623315 /* ButtonComponent.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -457,8 +489,10 @@
 				30D7EA5E229C22960014E31B /* Label2ButtonContainer.swift in Sources */,
 				3042DF8622917924006069A8 /* Label3ImageContainer.swift in Sources */,
 				3042DF68229162B0006069A8 /* Label2Container.swift in Sources */,
+				31BAC53522D391DD00623315 /* ButtonComponent.swift in Sources */,
 				30D7EA56229C1FA90014E31B /* LabelButtonComponent.swift in Sources */,
 				3042DF6F22916F0D006069A8 /* Label2ImageComponent.swift in Sources */,
+				31BAC52B22D390B400623315 /* ImageContainer.swift in Sources */,
 				3042DF8322917806006069A8 /* Label2Image2Component.swift in Sources */,
 				3042DF77229172D3006069A8 /* Image2LabelContainer.swift in Sources */,
 				315845A522D378C70017BA8E /* Label4Container.swift in Sources */,
@@ -468,8 +502,10 @@
 				3042DF6D22916543006069A8 /* Label2ImageContainer.swift in Sources */,
 				3042DF6122915B72006069A8 /* LabelImageContainer.swift in Sources */,
 				3042DF7E2291762F006069A8 /* Label3Component.swift in Sources */,
+				31BAC53222D391B700623315 /* ButtonContainer.swift in Sources */,
 				3042DF74229170B5006069A8 /* LabelImageButtonComponent.swift in Sources */,
 				3042DF5F22915951006069A8 /* LabelComponent.swift in Sources */,
+				31BAC52E22D390E200623315 /* ImageComponent.swift in Sources */,
 				315845A822D3795A0017BA8E /* Label4Component.swift in Sources */,
 				3042DF7C229175F3006069A8 /* Label3Container.swift in Sources */,
 				3042DF7922917366006069A8 /* Image2LabelComponent.swift in Sources */,
@@ -481,8 +517,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				315845A922D3795A0017BA8E /* Label4Component.swift in Sources */,
+				31BAC52C22D390B400623315 /* ImageContainer.swift in Sources */,
 				3042DF4A22915844006069A8 /* UIComponentsTests.swift in Sources */,
+				31BAC52F22D390E200623315 /* ImageComponent.swift in Sources */,
+				31BAC53622D391DD00623315 /* ButtonComponent.swift in Sources */,
 				315845A622D378C70017BA8E /* Label4Container.swift in Sources */,
+				31BAC53322D391B700623315 /* ButtonContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,10 +12,10 @@ open class Label4Component: InitView, Label4Container {
     
     // MARK: - UI elements
     
-    public var label1: UILabel = UILabel()
-    public var label2: UILabel = UILabel()
-    public var label3: UILabel = UILabel()
-    public var label4: UILabel = UILabel()
+    open var label1: UILabel = UILabel()
+    open var label2: UILabel = UILabel()
+    open var label3: UILabel = UILabel()
+    open var label4: UILabel = UILabel()
     
     // MARK: - Init configure
     
