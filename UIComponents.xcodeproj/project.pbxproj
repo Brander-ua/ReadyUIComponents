@@ -37,6 +37,10 @@
 		30D7EA5B229C21090014E31B /* ImageButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7EA5A229C21090014E31B /* ImageButtonComponent.swift */; };
 		30D7EA5E229C22960014E31B /* Label2ButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7EA5D229C22960014E31B /* Label2ButtonContainer.swift */; };
 		30D7EA60229C22C10014E31B /* Label2ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D7EA5F229C22C10014E31B /* Label2ButtonComponent.swift */; };
+		315845A522D378C70017BA8E /* Label4Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315845A422D378C70017BA8E /* Label4Container.swift */; };
+		315845A622D378C70017BA8E /* Label4Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315845A422D378C70017BA8E /* Label4Container.swift */; };
+		315845A822D3795A0017BA8E /* Label4Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315845A722D3795A0017BA8E /* Label4Component.swift */; };
+		315845A922D3795A0017BA8E /* Label4Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315845A722D3795A0017BA8E /* Label4Component.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,8 @@
 		30D7EA5A229C21090014E31B /* ImageButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonComponent.swift; sourceTree = "<group>"; };
 		30D7EA5D229C22960014E31B /* Label2ButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label2ButtonContainer.swift; sourceTree = "<group>"; };
 		30D7EA5F229C22C10014E31B /* Label2ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label2ButtonComponent.swift; sourceTree = "<group>"; };
+		315845A422D378C70017BA8E /* Label4Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label4Container.swift; sourceTree = "<group>"; };
+		315845A722D3795A0017BA8E /* Label4Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label4Component.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +182,7 @@
 		3042DF5822915870006069A8 /* 4 elements */ = {
 			isa = PBXGroup;
 			children = (
+				315845A322D378810017BA8E /* Label4 */,
 				3042DF7F22917754006069A8 /* Label2Image2 */,
 				3042DF8422917912006069A8 /* Label3Image */,
 			);
@@ -319,6 +326,15 @@
 			path = "Label+Label+Button";
 			sourceTree = "<group>";
 		};
+		315845A322D378810017BA8E /* Label4 */ = {
+			isa = PBXGroup;
+			children = (
+				315845A422D378C70017BA8E /* Label4Container.swift */,
+				315845A722D3795A0017BA8E /* Label4Component.swift */,
+			);
+			path = Label4;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -445,6 +461,7 @@
 				3042DF6F22916F0D006069A8 /* Label2ImageComponent.swift in Sources */,
 				3042DF8322917806006069A8 /* Label2Image2Component.swift in Sources */,
 				3042DF77229172D3006069A8 /* Image2LabelContainer.swift in Sources */,
+				315845A522D378C70017BA8E /* Label4Container.swift in Sources */,
 				3042DF5D229158C4006069A8 /* LabelContainer.swift in Sources */,
 				30D7EA59229C20A20014E31B /* ImageButtonContainer.swift in Sources */,
 				3042DF5B2291588E006069A8 /* InitView.swift in Sources */,
@@ -453,6 +470,7 @@
 				3042DF7E2291762F006069A8 /* Label3Component.swift in Sources */,
 				3042DF74229170B5006069A8 /* LabelImageButtonComponent.swift in Sources */,
 				3042DF5F22915951006069A8 /* LabelComponent.swift in Sources */,
+				315845A822D3795A0017BA8E /* Label4Component.swift in Sources */,
 				3042DF7C229175F3006069A8 /* Label3Container.swift in Sources */,
 				3042DF7922917366006069A8 /* Image2LabelComponent.swift in Sources */,
 			);
@@ -462,7 +480,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315845A922D3795A0017BA8E /* Label4Component.swift in Sources */,
 				3042DF4A22915844006069A8 /* UIComponentsTests.swift in Sources */,
+				315845A622D378C70017BA8E /* Label4Container.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
