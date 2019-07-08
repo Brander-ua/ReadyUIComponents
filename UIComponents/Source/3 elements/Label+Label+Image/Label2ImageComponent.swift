@@ -9,9 +9,24 @@ open class Label2ImageComponent: InitView, Label2ImageContainer {
   
   // MARK: - UI elements
   
-  open var label1: UILabel = UILabel()
-  open var label2: UILabel = UILabel()
-  open var imageView: UIImageView = UIImageView()
+  open var label1: UILabel = UILabel() {
+    didSet {
+      oldValue.removeFromSuperview()
+      addSubview(label1)
+    }
+  }
+  open var label2: UILabel = UILabel() {
+    didSet {
+      oldValue.removeFromSuperview()
+      addSubview(label2)
+    }
+  }
+  open var imageView: UIImageView = UIImageView() {
+    didSet {
+      oldValue.removeFromSuperview()
+      addSubview(imageView)
+    }
+  }
   
   // MARK: - Init configure
   

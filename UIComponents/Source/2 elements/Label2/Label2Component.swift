@@ -9,8 +9,18 @@ open class Label2Component: InitView, Label2Container {
   
   // MARK: - UI elements
   
-  open var label1: UILabel = UILabel()
-  open var label2: UILabel = UILabel()
+  open var label1: UILabel = UILabel() {
+    didSet {
+      oldValue.removeFromSuperview()
+      addSubview(label1)
+    }
+  }
+  open var label2: UILabel = UILabel() {
+    didSet {
+      oldValue.removeFromSuperview()
+      addSubview(label2)
+    }
+  }
   
   // MARK: - Init configure
   

@@ -9,8 +9,18 @@ open class LabelButtonComponent: InitView, LabelButtonContainer {
   
   // MARK: - UI elements
   
-  open var label: UILabel = UILabel()
-  open var button: UIButton = UIButton()
+  open var label: UILabel = UILabel() {
+    didSet {
+      oldValue.removeFromSuperview()
+      addSubview(label)
+    }
+  }
+  open var button: UIButton = UIButton() {
+    didSet {
+      oldValue.removeFromSuperview()
+      addSubview(button)
+    }
+  }
   
   // MARK: - Init configure
   
