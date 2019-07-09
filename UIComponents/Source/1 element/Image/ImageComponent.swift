@@ -12,7 +12,12 @@ open class ImageComponent: InitView, ImageContainer {
     
     // MARK: - UI elements
     
-    open var imageView: UIImageView = UIImageView()
+    open var imageView: UIImageView = UIImageView() {
+        didSet {
+            oldValue.removeFromSuperview()
+            addSubview(imageView)
+        }
+    }
     
     // MARK: - Init configure
     

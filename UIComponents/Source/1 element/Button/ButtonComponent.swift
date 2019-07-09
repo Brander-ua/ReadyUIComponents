@@ -12,7 +12,12 @@ open class ButtonComponent: InitView, ButtonContainer {
 
     // MARK: - UI elements
     
-    open var button: UIButton = UIButton()
+    open var button: UIButton = UIButton() {
+        didSet {
+            oldValue.removeFromSuperview()
+            addSubview(button)
+        }
+    }
     
     // MARK: - Init configure
     
