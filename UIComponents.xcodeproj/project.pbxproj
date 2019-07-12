@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303A7EDF22D88B9800699118 /* LabelSizedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A7EDE22D88B9700699118 /* LabelSizedComponent.swift */; };
+		303A7EE122D88C1300699118 /* ImageSizedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A7EE022D88C1300699118 /* ImageSizedComponent.swift */; };
+		303A7EE322D88C4000699118 /* ButtonSizedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A7EE222D88C4000699118 /* ButtonSizedComponent.swift */; };
+		303A7EE522D88CB700699118 /* LabelImageSizedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A7EE422D88CB700699118 /* LabelImageSizedComponent.swift */; };
+		303A7EE722D88D1D00699118 /* Label2SizedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A7EE622D88D1D00699118 /* Label2SizedComponent.swift */; };
+		303A7EE922D88D4F00699118 /* LabelButtonSizedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A7EE822D88D4F00699118 /* LabelButtonSizedComponent.swift */; };
+		303A7EEB22D88D8600699118 /* ImageButtonSizedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A7EEA22D88D8600699118 /* ImageButtonSizedComponent.swift */; };
 		3042DF4522915844006069A8 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3042DF3B22915843006069A8 /* UIComponents.framework */; };
 		3042DF4A22915844006069A8 /* UIComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3042DF4922915844006069A8 /* UIComponentsTests.swift */; };
 		3042DF4C22915844006069A8 /* UIComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 3042DF3E22915843006069A8 /* UIComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,6 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303A7EDE22D88B9700699118 /* LabelSizedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelSizedComponent.swift; sourceTree = "<group>"; };
+		303A7EE022D88C1300699118 /* ImageSizedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSizedComponent.swift; sourceTree = "<group>"; };
+		303A7EE222D88C4000699118 /* ButtonSizedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizedComponent.swift; sourceTree = "<group>"; };
+		303A7EE422D88CB700699118 /* LabelImageSizedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelImageSizedComponent.swift; sourceTree = "<group>"; };
+		303A7EE622D88D1D00699118 /* Label2SizedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label2SizedComponent.swift; sourceTree = "<group>"; };
+		303A7EE822D88D4F00699118 /* LabelButtonSizedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButtonSizedComponent.swift; sourceTree = "<group>"; };
+		303A7EEA22D88D8600699118 /* ImageButtonSizedComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonSizedComponent.swift; sourceTree = "<group>"; };
 		3042DF3B22915843006069A8 /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3042DF3E22915843006069A8 /* UIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIComponents.h; sourceTree = "<group>"; };
 		3042DF3F22915843006069A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -209,6 +223,7 @@
 			children = (
 				3042DF5C229158C4006069A8 /* LabelContainer.swift */,
 				3042DF5E22915951006069A8 /* LabelComponent.swift */,
+				303A7EDE22D88B9700699118 /* LabelSizedComponent.swift */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -218,6 +233,7 @@
 			children = (
 				3042DF6022915B72006069A8 /* LabelImageContainer.swift */,
 				3042DF6422915BC5006069A8 /* LabelImageComponent.swift */,
+				303A7EE422D88CB700699118 /* LabelImageSizedComponent.swift */,
 			);
 			path = "Label+Image";
 			sourceTree = "<group>";
@@ -227,6 +243,7 @@
 			children = (
 				3042DF67229162B0006069A8 /* Label2Container.swift */,
 				3042DF6922916314006069A8 /* Label2Component.swift */,
+				303A7EE622D88D1D00699118 /* Label2SizedComponent.swift */,
 			);
 			path = Label2;
 			sourceTree = "<group>";
@@ -311,6 +328,7 @@
 			children = (
 				30D7EA53229C1F7C0014E31B /* LabelButtonContainer.swift */,
 				30D7EA55229C1FA90014E31B /* LabelButtonComponent.swift */,
+				303A7EE822D88D4F00699118 /* LabelButtonSizedComponent.swift */,
 			);
 			path = "Label+Button";
 			sourceTree = "<group>";
@@ -320,6 +338,7 @@
 			children = (
 				30D7EA58229C20A20014E31B /* ImageButtonContainer.swift */,
 				30D7EA5A229C21090014E31B /* ImageButtonComponent.swift */,
+				303A7EEA22D88D8600699118 /* ImageButtonSizedComponent.swift */,
 			);
 			path = "Image+Button";
 			sourceTree = "<group>";
@@ -338,6 +357,7 @@
 			children = (
 				31BAC52A22D390B400623315 /* ImageContainer.swift */,
 				31BAC52D22D390E200623315 /* ImageComponent.swift */,
+				303A7EE022D88C1300699118 /* ImageSizedComponent.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -347,6 +367,7 @@
 			children = (
 				31BAC53122D391B700623315 /* ButtonContainer.swift */,
 				31BAC53422D391DD00623315 /* ButtonComponent.swift */,
+				303A7EE222D88C4000699118 /* ButtonSizedComponent.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -462,16 +483,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303A7EE522D88CB700699118 /* LabelImageSizedComponent.swift in Sources */,
 				30D7EA5B229C21090014E31B /* ImageButtonComponent.swift in Sources */,
 				3042DF812291776C006069A8 /* Label2Image2Container.swift in Sources */,
 				3042DF7222917078006069A8 /* LabelImageButtonContainer.swift in Sources */,
+				303A7EE322D88C4000699118 /* ButtonSizedComponent.swift in Sources */,
 				3042DF8822917991006069A8 /* Label3ImageComponent.swift in Sources */,
 				3042DF6A22916314006069A8 /* Label2Component.swift in Sources */,
+				303A7EE722D88D1D00699118 /* Label2SizedComponent.swift in Sources */,
 				30D7EA54229C1F7C0014E31B /* LabelButtonContainer.swift in Sources */,
 				30D7EA60229C22C10014E31B /* Label2ButtonComponent.swift in Sources */,
 				3042DF6522915BC5006069A8 /* LabelImageComponent.swift in Sources */,
+				303A7EEB22D88D8600699118 /* ImageButtonSizedComponent.swift in Sources */,
+				303A7EDF22D88B9800699118 /* LabelSizedComponent.swift in Sources */,
 				30D7EA5E229C22960014E31B /* Label2ButtonContainer.swift in Sources */,
 				3042DF8622917924006069A8 /* Label3ImageContainer.swift in Sources */,
+				303A7EE122D88C1300699118 /* ImageSizedComponent.swift in Sources */,
 				3042DF68229162B0006069A8 /* Label2Container.swift in Sources */,
 				31BAC53522D391DD00623315 /* ButtonComponent.swift in Sources */,
 				30D7EA56229C1FA90014E31B /* LabelButtonComponent.swift in Sources */,
@@ -488,6 +515,7 @@
 				31BAC53222D391B700623315 /* ButtonContainer.swift in Sources */,
 				3042DF74229170B5006069A8 /* LabelImageButtonComponent.swift in Sources */,
 				3042DF5F22915951006069A8 /* LabelComponent.swift in Sources */,
+				303A7EE922D88D4F00699118 /* LabelButtonSizedComponent.swift in Sources */,
 				31BAC52E22D390E200623315 /* ImageComponent.swift in Sources */,
 				3042DF7C229175F3006069A8 /* Label3Container.swift in Sources */,
 				3042DF7922917366006069A8 /* Image2LabelComponent.swift in Sources */,
