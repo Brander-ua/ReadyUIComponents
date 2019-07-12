@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ReadyUIComponents'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Library with default combinations of UIKit elements'
  
   s.homepage         = 'https://github.com/Brander-ua/ReadyUIComponents'
